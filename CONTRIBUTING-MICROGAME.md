@@ -2,7 +2,7 @@ Please take some time to read through this before you begin working on microgame
 
 First of all, this game is made using the [Unity engine](https://unity3d.com/get-unity/download). This little tutorial operates under the assumption that you know the very basics of programming in Unity. If you don't, there are like ten hundred million tutorials online on how to get started. If you've never used Unity before, I'd also recommend at least recreating a small simple game like Pong before you try to tackle this project.
 
-I'll probably make a wiki page for this later on, but for now I'll just use this file.
+**SUPER IMPORTANT:** You'll need to use Github for creating and submitting your microgame. It's easy to set up and allows you to work in the actual game project itself. Before you start programming formally, please download and install Github, [fork the repo](http://github.com/nitorinc/nitoriware/fork), and clone it on to your computer. If you need help with any of this, ping me (@Gman8r) on the server or just contact us on social media and I'll run you by the whole thing.
 
 [Basics](#basics)  
 [Design](#design)  
@@ -18,6 +18,7 @@ The rundown of how to get started making your game:
 * **IMPORTANT:** Check [this list](https://docs.google.com/spreadsheets/d/1pAbRPJQfDOsKXkEJRFOXd7wY6Tizlwt5xRCTJZqj7SQ/edit?usp=sharing) out to make sure your ID hasn't already been taken.
 * When you decide the ID, create a new branch and begin working on your game! Branch name should ideally be "Microgame/\<YourMicrogameID\>/\<goal-of-this-branch\>".
 * You should submit a pull request once you have a basically functional game and you debug it using the methods in [Debugging](#debugging)
+* **IMPORTANT:** Don't leave any empty folders in your commit! Unity will auto-create .meta files but git will not copy the folder itself over, leading to a struggle between git and unity over the meta existing or not. Either put a placeholder file in empty folders or just delete them before sumbmitting.
 * After your first pull request, keep making a new branch and repeating the same process every time you want to implement a feature or change.
 
 ## Design
